@@ -137,9 +137,4 @@ public class VarastoTest {
     public void toStringToimii() {
         assertEquals("saldo = 10.0, vielä tilaa 10.0", varastoAlkuSaldolla.toString());
     }
-    
-    @Test
-    public void cinRikkovaTesti() {
-        assertEquals("", varastoAlkuSaldolla.toString());
-    }
 }
