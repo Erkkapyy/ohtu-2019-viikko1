@@ -38,3 +38,9 @@ mainClassName = 'ohtu.ohtuvarasto.Main'
 
 apply plugin: "jacoco" 
 
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
