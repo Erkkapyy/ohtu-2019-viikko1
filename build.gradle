@@ -7,6 +7,9 @@
  */
 
 // Apply the java plugin to add support for Java
+plugins {
+    id 'checkstyle'
+}
 apply plugin: 'java'
 
 // Apply the application plugin to add support for building an application
